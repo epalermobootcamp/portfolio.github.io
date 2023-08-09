@@ -1,0 +1,119 @@
+nav {
+  width: 100%;
+  height: auto;
+  top: 0;
+  z-index: 2;
+  background-color: black;
+  color: beige;
+  position: fixed;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 10px 10px;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+main {
+  text-align: center;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url(./Background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  margin-top: 20px;
+  border: solid black 2px;
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+}
+
+h1,
+h2,
+h3 {
+  color: beige;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projects {
+  border: outset 10px beige;
+  justify-content: center;
+  background-color: lightblue;
+  /* opacity: 60%; */
+  height: 400px;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.flexPhoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: outset 10px beige;
+  background-color: lightblue;
+  opacity: 80%;
+  height: 400px;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  text-align: right;
+}
+
+#calculator {
+  background-image: url(./calculator.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#ledWall {
+  background-image: url(./LED.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#surfReport {
+  background-image: url(./surfReport.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#runningBuddy {
+  background-image: url(./Runbuddy.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#puzzle {
+  background-image: url(./puzzle.jpg);
+  background-position: center;
+  background-size: cover;
+}
